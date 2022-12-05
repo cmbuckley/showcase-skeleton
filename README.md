@@ -7,7 +7,7 @@ To use, create an orphaned gh-pages branch using this repository:
 ```bash
 git remote add skel gh:cmbuckley/showcase-skeleton
 git fetch skel
-git checkout -b gh-pages skel/master
+git checkout -b gh-pages skel/main
 git remote rm skel
 ```
 
